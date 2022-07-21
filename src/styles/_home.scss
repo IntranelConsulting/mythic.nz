@@ -1,0 +1,102 @@
+.beta {
+  display: inline-block;
+  padding: 0 0.5em;
+  font-size: var(--text-smaller);
+  font-style: italic;
+  color: var(--color-text-light);
+  background: var(--gradient);
+  border-radius: 1em;
+  @supports (background-clip: text) {
+    padding: 0;
+    font-weight: bold;
+    background-clip: text;
+    color: transparent;
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.for-you {
+  img {
+    height: 5rem;
+    opacity: 0.6;
+  }
+  article > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--purple-4);
+    box-shadow: 0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.25);
+    padding: 2rem 2rem;
+    @include min-width($screen-width-lg) {
+      padding: 4rem 6rem 1rem;
+      &.grid-right-full {
+        grid-column: 6 / 9;
+      }
+      &.grid-left-full {
+        grid-column: 3 / 6;
+      }
+    }
+  }
+  ul {
+    max-width: 30rem;
+    li {
+      font-size: var(--text-smaller);
+    }
+  }
+  @include min-width($screen-width-xxs) {
+    ul {
+      max-width: 100%;
+    }
+  }
+}
+
+#details {
+  figure {
+    margin: 0 0 2em;
+    align-items: center;
+    @include min-width() {
+      margin: 0;
+      padding: 5em 0;
+      min-height: 50vmin;
+    }
+  }
+  figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  video {
+    max-width: 100%;
+  }
+
+  .home-feature-icon {
+    display: none;
+    @include min-width($screen-width-sm) {
+      display: block;
+      grid-column: 7 / 9;
+    }
+  }
+}
+
+.features {
+  .btn {
+    width: 20rem;
+    max-width: 100%;
+    margin: 2rem 0 4rem;
+    @include min-width($screen-width-md) {
+      width: 30rem;
+    }
+  }
+}
+
+.social-media {
+  svg {
+    width: 8rem;
+    margin: var(--padding);
+    @include min-width($screen-width-md) {
+      width: 10rem;
+    }
+  }
+}

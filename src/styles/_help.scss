@@ -1,0 +1,35 @@
+.page-help {
+    @import "../../brand/markdown";
+    figure {
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 90%;
+        line-height: 0;
+        background: var(--background-color-alt);
+        border: 1px solid var(--purple-light-35);
+        border-radius: 0.25em;
+        box-shadow: -0.2em 0.35em 0.5em 0em rgba(0, 0, 0, 0.15);
+        img,
+        picture {
+            max-width: 100%;
+            border-radius: 0.2em 0.2em 0 0;
+            &:last-child {
+                border-radius: 0.2em;
+            }
+        }
+        > figcaption {
+            margin-top: 0.25em;
+            padding: 0.25em 0.5em 0.5em;
+            text-align: center;
+            font-size: var(--text-xs);
+            line-height: 1.25;
+        }
+    }
+    body:not(.mac) .hide-windows {
+      display: none;
+    }
+}

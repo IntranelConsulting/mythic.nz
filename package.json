@@ -1,0 +1,26 @@
+{
+  "name": "betasite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development eleventy --serve",
+    "build:eleventy": "NODE_ENV=production eleventy",
+    "build:js": "uglifyjs src/script.js --compress --toplevel -o dist/script.js",
+    "clean": "rm -rf dist",
+    "build": "run-s clean build:*"
+  },
+  "author": "Philip Renich",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.10.0",
+    "browser-sync": "^2.26.14",
+    "fs-extra": "^10.0.0",
+    "markdown-it-anchor": "^8.6.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "2.1.1",
+    "sass": "^1.32.12",
+    "uglify-js": "^3.10.3"
+  }
+}

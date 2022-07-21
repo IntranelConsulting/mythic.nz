@@ -1,0 +1,80 @@
+@import "../../brand/brand";
+@import "../../brand/forms";
+@import "variables";
+@import "typography";
+@import "global";
+@import "grid";
+@import "form";
+@import "home";
+@import "features";
+@import "header";
+@import "navigation";
+@import "help";
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  color: var(--color-text);
+  background-color: var(--background-color);
+  font-size: var(--text-md);
+  font-family: var(--font-body);
+}
+footer {
+  margin-top: auto;
+}
+
+*::selection {
+  color: var(--color-text-light);
+  background-color: var(--gold);
+}
+
+.dyslexia {
+  display: none;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  padding: 0;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: var(--text-larger);
+  color: #fff;
+  text-align: center;
+  line-height: 2;
+  font-weight: bold;
+  background: var(--blue);
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  &:hover,
+  &:focus {
+    background-color: var(--purple);
+  }
+  @include min-width($screen-width-sm) {
+    bottom: 0.5em;
+    right: 0.5em;
+    font-size: var(--text-md);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

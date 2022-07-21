@@ -1,0 +1,11 @@
+{% if not title %}
+{% set title = "A tool and marketplace for tabletop RPG contenet" %}
+{% endif %}
+
+{% include "header.html" %}
+<section class="grid">
+    <article class="grid-medium">
+        {{ content | safe }}
+    </article>
+</section>
+{% include "footer.html" %}

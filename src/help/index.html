@@ -1,0 +1,42 @@
+---
+layout: "layout"
+slug: help
+title: Help | Mythic
+bannerH1: Welcome to the Mythic help docs
+bannerH2: Have questions? Find your answer here!
+---
+
+<section class="grid">
+  <article class="grid-wide">
+    <h3>Browse our help pages below</h3>
+    <ul>
+      {% for doc in collections.customHelp %}
+      <li><a href="{{ doc.url }}">{{ doc.data.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+
+<section class="grid">
+  <article class="grid-wide">
+    <h3>Other handy links</h3>
+    <ul>
+      <li><a href="/features/">What is Mythic?</a></li>
+      <li><a href="https://app.mythic.nz">Take me to the Mythic Editor</a></li>
+      <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+      <li><a href="https://app.mythic.nz/changelog">Changelog</a></li>
+      <li><a href="/privacy/">Policies and Legal Stuff</a></li>
+    </ul>
+  </article>
+</section>
+
+<section class="grid">
+  <article class="grid-wide">
+    <h3>Can't find what you're looking for?</h3>
+    <p>
+      Get in touch with one of our
+      <a href="mailto:contact@mythic.nz" title="Send Mythic an email">friendly team</a> and we'll point you in the right
+      direction.
+    </p>
+  </article>
+</section>

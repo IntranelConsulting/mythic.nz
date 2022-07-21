@@ -1,0 +1,33 @@
+$text-min-width: 37.5em;
+
+:root {
+  @media screen and (min-width: $text-min-width) {
+    --text-size-base: 2.2rem;
+  }
+
+  --text-xxxxl: calc(var(--text-xxxl) * var(--text-size-scale) * var(--text-size-scale));
+
+  --font-default: MacOS, Windows, sans-serif;
+  --font-default-serif: Baskerville, PT Serif, Charter, Constantia, serif;
+  --font-default-dyslexia: "OpenDyslexic3 Regular", sans-serif;
+  --font-body: var(--font-default);
+  --font-display: var(--font-default-serif);
+}
+@font-face {
+  font-family: "OpenDyslexic3 Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("OpenDyslexic3 Regular"), url("/assets/OpenDyslexic3-Regular.woff") format("woff");
+}
+
+small,
+.info {
+  font-size: var(--text-smaller);
+}
+
+a.icon {
+  color: var(--color-text);
+  &:hover {
+    color: var(--purple);
+  }
+}

@@ -1,0 +1,5 @@
+# Don't index the form result page
+User-agent: *
+Disallow: /success
+
+Sitemap: https://mythic.nz/sitemap.xml

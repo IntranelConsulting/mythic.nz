@@ -1,0 +1,115 @@
+main {
+  padding: 0 var(--padding);
+  width: 100%;
+  section {
+    margin: 5rem 0;
+  }
+  h2::after {
+    content: "";
+    display: block;
+    margin-top: 0.15em;
+    width: 3em;
+    max-width: 50vw;
+    border-bottom: 1px solid;
+    @include min-width($text-min-width) {
+      border-bottom-width: 3px;
+    }
+  }
+  @include min-width($screen-width-xxs) {
+    article {
+      padding: var(--padding);
+    }
+  }
+  @include min-width($screen-width-md) {
+    margin-bottom: 10rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 1em;
+  li {
+    margin: 0.25em 0;
+    line-height: 1.6em;
+  }
+}
+
+footer {
+  margin-top: auto;
+  padding: 0.5em;
+  font-size: var(--text-xs);
+  text-align: center;
+  color: #fff;
+  background: var(--gradient);
+}
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .social {
+  margin: 0 auto 0.5em;
+  a {
+    display: inline-block;
+    margin-left: 1em;
+  }
+  svg {
+    height: 2em;
+    vertical-align: middle;
+    .cls-1 {
+      fill: #fff;
+    }
+  }
+}
+
+hr {
+  height: 1px;
+  background: var(--gradient);
+  border: 0;
+  margin-top: 2em;
+}
+header + hr {
+  margin-top: 0;
+}
+
+.colour-and-shadow {
+  background: var(--purple-4);
+  box-shadow: 0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.shadow {
+  box-shadow: 0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--blue);
+  .tooltip-content {
+    visibility: hidden;
+    width: 20rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    right: 50%;
+  }
+  &:hover .tooltip-content {
+    visibility: visible;
+  }
+  @include min-width($screen-width-xs) {
+    right: auto;
+  }
+}

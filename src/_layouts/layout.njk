@@ -1,0 +1,15 @@
+{% if not title %}
+{% set title = "A tool and marketplace for tabletop RPG contenet" %}
+{% endif %}
+
+{% include "header.html" %}
+
+{% if banner %}
+{% include "banner-" + banner + ".html" %}
+{% else %}
+{% include "banner.html" %}
+{% endif %}
+
+{{ content | safe }}
+
+{% include "footer.html" %}
