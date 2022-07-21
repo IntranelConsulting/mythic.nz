@@ -6,6 +6,10 @@ order: 4
 ---
 
 <style type="text/css">
+    .table-wrapper {
+        max-width: calc(100vw - (var(--padding) * 2));
+        overflow: auto;
+    }
     table {
         --padding: var(--text-size-base)
     }
@@ -28,6 +32,8 @@ There are two sets of keyboard shortcuts, or hotkeys, that can be used in Mythic
 
 ### Global Storybook
 
+<div class="table-wrapper">
+
 | Action                             | Keyboard Shortcut                                                                        |
 | ---------------------------------- | ---------------------------------------------------------------------------------------- |
 | Create new page                    | <kbd>mod</kbd> + <kbd>shift</kbd> + <kbd>c</kbd>                                         |
@@ -37,10 +43,12 @@ There are two sets of keyboard shortcuts, or hotkeys, that can be used in Mythic
 | Search pages                       | <kbd>mod</kbd> + <kbd>shift</kbd> + <kbd>f</kbd>                                         |
 | Close any modal or leave edit mode | <kbd>Esc</kbd>                                                                           |
 | Keyboard shortcuts help modal      | <kbd>mod</kbd> + <kbd>/</kbd>                                                            |
+</div>
 
 ### Storybook Text Editor
 
 Many of these text modifications can also be used by writing [Markdown syntax](https://daringfireball.net/projects/markdown).
+<div class="table-wrapper">
 
 | Action                     | Keyboard Shortcut                                                                                          |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -55,6 +63,7 @@ Many of these text modifications can also be used by writing [Markdown syntax](h
 | Notes                      | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>\\</kbd>                                                         |
 | Undo                       | <kbd>mod</kbd> + <kbd>z</kbd>                                                                              |
 | Redo                       | <kbd>mod</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> <i>or</i> <kbd>mod</kbd> + <kbd>y</kbd>                   |
+</div>
 
 <script type="text/javascript">
 var isMac = /mac/i.test(navigator.platform) || /macintosh/i.test(navigator.userAgent);
