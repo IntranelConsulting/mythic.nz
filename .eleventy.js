@@ -47,6 +47,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({ "src/public": "/" });
   eleventyConfig.addPassthroughCopy("src/help/imgs");
+  eleventyConfig.addPassthroughCopy("src/.well-known");
 
   eleventyConfig.setBrowserSyncConfig({
     https: true,

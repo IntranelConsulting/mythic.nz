@@ -1,0 +1,23 @@
+{
+    "subject": "acct:MythicNZ@dice.camp",
+    "aliases": [
+        "https://dice.camp/@MythicNZ",
+        "https://dice.camp/users/MythicNZ"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://dice.camp/@MythicNZ"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://dice.camp/users/MythicNZ"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://dice.camp/authorize_interaction?uri={uri}"
+        }
+    ]
+}
