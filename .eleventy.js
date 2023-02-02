@@ -51,6 +51,16 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setBrowserSyncConfig({
     https: true,
+    callbacks: {
+      ready: function(err, bs) {
+        bs.addMiddleware("*", function (req, res) {
+          res.writeHead(302, {
+              location: "404.html"
+          });
+          res.end("Redirecting!");
+      });
+      }
+    }
   });
 
   /* --- Shortcodes --- */
