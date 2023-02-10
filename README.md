@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/738d4656-a87d-4da9-8206-c077df0609a5/deploy-status)](https://app.netlify.com/sites/mythic-c4dc9a/deploys)
+
 # Mythic Marketing Website
 
 ## Installation
