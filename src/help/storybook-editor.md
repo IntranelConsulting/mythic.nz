@@ -55,6 +55,12 @@ If you create a new parent page, a blank page will be created automatically with
 
 > Blank pages with sub-pages will show an auto-generated page hierarchy table of contents.
 
+#### Aliases
+
+In the Page Settings modal you can also set aliases for your page. These will be used, along with the page title, to automatically create links between your pages.
+
+For example, with a page titled "Island of Tigers", you could create aliases "Tiger Island" and "Feline Isle". All three of the phrases will automatically generate links when that text is found on a page.
+
 ### Content Editor
 
 At the top of the content editor is a menu for styling the text and inserting various components such as links, tables, and images. Text is styled according to [Markdown syntax](https://daringfireball.net/projects/markdown) (more syntax documentation can also be found at [Markdown Guide](https://www.markdownguide.org/)).
@@ -101,7 +107,7 @@ You can link to internal pages and external webpages by selecting text and click
     <figcaption>Link to an external or internal page.</figcaption>
 </figure>
 
-Internal pages will also be automatically linked when in reading mode if the text is an exact match of a page title. No special characters to prompt this are required.
+Internal pages will also be automatically linked when in reading mode if the text is an exact match of a page title or an alias. No special characters are required to prompt this.
 
 #### Tables
 
