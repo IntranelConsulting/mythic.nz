@@ -140,7 +140,7 @@ While in reading mode, Mythic automatically adds links to page titles that match
     <figcaption>Quickly view the content of a linked page by hovering over the link.</figcaption>
 </figure>
 
-Any `highlighted text` that solely contains dice roll notation, that is `2d6`, can be clicked to roll it and get a random number. Modifiers can be used to add or subtract from the roll: `3d8 + 4` or `d4-1`. The spaces and number before the letter "d" are optional as shown in the last example.
+Any `highlighted text` that solely contains dice roll notation (e.g., `2d6`) can be clicked to roll it and get a random number. Modifiers can be used to add or subtract from the roll: `3d8 + 4` or `d4-1`. The spaces around the operator and the number before the letter "d" are optional as shown in the last example.
 
 <figure>
     {% image "./src/assets/help/storybook-editor/dice-roll.png", "Example showing the dice roll of 2d6 + 3", ["608px"], images.sizes.help, "" %}
