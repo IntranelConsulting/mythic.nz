@@ -33,27 +33,27 @@ This page will walk you through writing content and using it while running a gam
 
 In writing mode, the content editor ([detailed below](#content-editor)) starts with cursor focus so you can immediately begin creating.
 
-To create a page, you only need a title; however you can also specify a location. Pages are organised in a nested folder hierarchy. The location defaults to match the folder you were in when you clicked "Create". For example, if you are reading a page located in "World -> Cities and Towns" your new page would start with the same location.
+To create a page, you only need a title; however you can also specify a location. Any page can be nested under another.
 
 #### Selecting a Page Location
 
-1. Click on the "Location" button in the upper right corner of the editor to select an existing folder or create a new one for your page.
+1. Click on the "Page Settings" button in the upper right corner of the editor to select an existing page or create a new parent for your page.
 
 <figure>
-    {% image "./src/assets/help/storybook-editor/location.png", "Screenshot showing the location button in the upper right corner of the editor", ["469px"], images.sizes.help, "" %}
+    {% image "./src/assets/help/storybook-editor/edit-page-menu-buttons.png", "Screenshot showing the page settings button in the upper right corner of the editor", ["469px"], images.sizes.help, "" %}
     <figcaption>The button to select a location of the page.</figcaption>
 </figure>
 
-2. Using the dropdown menu, select an existing folder (or Top Level) and optionally create a new sub-folder folder with the text field.
+2. Using the dropdown menu, select an existing page (or Top Level) and optionally create a new parent page with the text field.
 
 <figure>
-    {% image "./src/assets/help/storybook-editor/page-location.avif", "Screenshot of document page location modal", ["412px"], images.sizes.help, "" %}
-    <figcaption>Select where in the folder hierarchy your page lives.</figcaption>
+    {% image "./src/assets/help/storybook-editor/page-settings-modal.png", "Screenshot of document page settings modal", ["412px"], images.sizes.help, "" %}
+    <figcaption>Select where in the hierarchy your page lives.</figcaption>
 </figure>
 
-Selecting **"This is a cover page"** will set your page as a folder cover page and automatically set the page title for you to match your folder name.
+If you create a new parent page, a blank page will be created automatically with your page underneath it.
 
-> A folder may include a cover page which is displayed when you select the folder itself. A folder without a cover page will not load to a new page, but only expand to show its children.
+> Blank pages with sub-pages will show an auto-generated page hierarchy table of contents.
 
 ### Content Editor
 
@@ -116,11 +116,11 @@ If the table is the last element in the document, use the arrow keys to move the
 
 ### Reading
 
-The reading view of the Storybook is identical to the editing view, but without the writing tools. You can find pages using the sidebar folder list and search field.
+The reading view of the Storybook is identical to the editing view, but without the writing tools. You can find pages using the sidebar list and search field.
 
 <figure>
-    {% image "./src/assets/help/storybook-editor/reading.png", "Screenshot showing the sidebar folder list and search field", ["311px"], images.sizes.help, "" %}
-    <figcaption>Find pages using the sidebar folder list and search field.</figcaption>
+    {% image "./src/assets/help/storybook-editor/reading.png", "Screenshot showing the sidebar list and search field", ["311px"], images.sizes.help, "" %}
+    <figcaption>Find pages using the sidebar list and search field.</figcaption>
 </figure>
 
 If your page has headings, these will be used to build a table of contents. This makes navigating large documents much easier. The toggle button to show the table of contents is on the left by the navigation pane for large screens and on small screens it is next to the edit button.
