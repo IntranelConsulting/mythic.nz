@@ -26,7 +26,7 @@ In the future we plan to support more file types.
 
 ### Naming and Location of Pages
 
-Pages can be titled based on specified metadata or their filename. Mythic recognises YAML frontmatter data at the top of files. If the key `title` exists, it will use that. If it does not exist, the filename (minus the file extension) will be used instead. Don't worry about clashes—duplicate titles will be saved with an incrementing number after their name.
+Page titles come from either metadata in the content or the filename. Mythic recognises [YAML frontmatter](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block) metadata at the start of the content. If the key `title` exists, it will use that as page title. Otherwise, the filename (minus the file extension) will be used. Don't worry about clashes with other files—duplicate titles will be saved with an incrementing number after their name.
 
 Here's an example of using frontmatter:
 

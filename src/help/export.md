@@ -9,9 +9,9 @@ order: 3
 
 ## Export Your Storybooks from Mythic
 
-We want you to be able to get your writing out of Mythic easily, regardless of why. It's your data. Mythic currently exports to Markdown files, though we would like to support other formats like HTML and PDF in the future.
+We want you to be able to get your writing out of Mythic easily, regardless of why. It's your data. Mythic currently exports to Markdown files, and in the future we would like to support other formats like HTML and PDF.
 
-Find the Storybook you want to export in the Mythic Dashboard, and click the "Settings" button in the bottom right corner to open the settings modal.
+Find the Storybook you want to export on the Dashboard, and click the "Settings" button in the bottom right corner to open the settings modal.
 
 <figure>
     {% image "./src/assets/help/export/settings.png", "Open the Settings modal to export your content", ["588px"], images.sizes.help, "" %}
@@ -29,18 +29,18 @@ You can choose to export just your writing, just the images on your pages, or bo
 
 ### Page Metadata
 
-The exported Markdown files include metadata at the top of the document in YAML frontmatter syntax. This includes the full page title (file names have special characters removed) and information used to correctly relate child and parent pages. Here's an example:
+The exported Markdown files include metadata at the top of the document in [YAML frontmatter syntax](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block). This includes the full page title and information used to correctly relate child and parent pages.  File names have special characters removed or replaced. Here's an example:
 
 `sevlade-forest.md`
 ```
 ---
-title: Sevlade Forest
+title: Sévlade Forest
 mythicId: o810Ude5rEGSGy75PDL57A
 mythicParentId: ZxSyb2cwq0426cO7grZWkw
 ---
 # Description
 
-The Sevlade Forest lies to the east of Dawn Lake, north of Greycott. It is large and while safe near the road...
+The Sévlade Forest lies to the east of Dawn Lake, north of Greycott. It is large and while safe near the road...
 ```
 
 While changing the `Title` is fine, editing `mythicId` and `mythicParentId` can cause issues when re-importing.
@@ -48,4 +48,4 @@ While changing the `Title` is fine, editing `mythicId` and `mythicParentId` can 
 ### Known Issues
 
 - Links between pages in the exported Markdown may not work and could need to be manually updated.
-- Images on Mythic are only viewable to your account, so if you decide to not download images with the Storybook, they will not link or display correctly.
+- Images on Mythic are only viewable to your account, so if you decide to not download images with the Storybook, they will not display correctly locally.
