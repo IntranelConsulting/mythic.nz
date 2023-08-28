@@ -11,16 +11,14 @@ order: 2
 
 When creating or editing a Storybook from the Dashboard you have the option of importing content into your Mythic Storybook as pages.
 
-Using the file browser (shown below), select the documents you want to import and upload them. Currently we support plain text documents as either `.txt` or `.md` files. Markdown syntax in either format is kept and rendered in the editor.
+Using the file browser (shown below), select the documents you want to import and upload them. Currently we support plain text documents as either `.txt` or `.md` files. These can be contained in a `.zip` file. Markdown syntax in either format is kept and rendered in the editor.
 
 <figure>
     {% image "./src/assets/help/import/import.jpg", "Screenshot showing the import file selector", ["392px"], images.sizes.help, "" %}
     <figcaption>The file selector for importing content.</figcaption>
 </figure>
 
-In addition, you can upload a `.zip` file containing a folder structure of these files and Mythic will automatically use that to place your content into the correct location.
-
-You can also upload multiple documents at once and mix-and-match formats. See the [examples](#examples) below.
+You can upload multiple documents at once and mix-and-match formats. See the [examples](#examples) below.
 
 Once you've imported your files, you'll want to go through your pages in the Storybook editor to make sure that all the internal links are set up correctly. If your content contains locally referenced images, you will need to upload those separately per page.
 
@@ -28,11 +26,25 @@ In the future we plan to support more file types.
 
 ### Naming and Location of Pages
 
-Pages are titled using the filename, minus the extension. Don't worry about clashes - duplicate titles will be saved with an incrementing number after their name.
+Page titles come from either metadata in the content or the filename. Mythic recognises [YAML frontmatter](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block) metadata at the start of the content. If the key `title` exists, it will use that as page title. Otherwise, the filename (minus the file extension) will be used. Don't worry about clashes with other files—duplicate titles will be saved with an incrementing number after their name.
+
+Here's an example of using frontmatter:
+
+`sevlade-forest.md`
+```
+---
+title: Sevlade Forest
+---
+# Description
+
+The Sevlade Forest lies to the east of Dawn Lake, north of Greycott. It is large and while safe near the road...
+```
+
+If you upload a `.zip` file containing a folder structure of files, Mythic will automatically create the correct hierarchy of pages. If you have a file with a page title that matches a folder, that page will be used as the parent of the files in the folder. Otherwise, Mythic will create a blank parent page based on the folder name.
 
 When you upload text documents that are not in a `.zip` file they will be imported to the top level of your Storybook.
 
-If you want to upload a ZIP file, when creating it decide if you want the files to populate the top level of your Storybook or to be placed into a folder.
+When creating a ZIP file, decide if you want the files to populate the top level of your Storybook or to be placed under a parent page.
 
 For top level, create your ZIP by selecting all the files you want to import and putting them in to a ZIP.
 
@@ -41,7 +53,7 @@ For top level, create your ZIP by selecting all the files you want to import and
     <figcaption>All the documents are located in a ZIP.</figcaption>
 </figure>
 
-To place the imported content into a sub-folder automatically, place the _folder_ containing your documents in to a ZIP.
+To place the imported content under a parent page, place the _folder_ containing your documents into a ZIP. That folder will become the parent page.
 
 <figure>
      {% image "./src/assets/help/import/sub-folder.png", "Screenshot of documents being placed in a ZIP file for a sub-folder position", ["303px"], images.sizes.help, "" %}
@@ -50,7 +62,7 @@ To place the imported content into a sub-folder automatically, place the _folder
 
 > Note: On MacOS, you may find pages duplicated if you create the ZIP archive with all the subfolders expanded. It seems that the revealed file is added to the archive _and_ the folder which then adds the contained files. You may need to collapse the subfolders.
 
-To create a [cover page](/help/storybook-editor#selecting-a-page-location), place a file called `index.md` or `index.txt` inside a folder of content you want to upload. The content in this file will be displayed when clicking on your folder title.
+> Note: If you are importing a Storybook that was exported from Mythic, you may notice a two frontmatter keys called `mythicId` and `mythicParentId`. These are used to match pages with their parents and should not be edited. You should also not *add* these keys to files you are importing that were not exported from Mythic. Instead, create folder structures to inform Mythic about your page hierarchy.
 
 ### Examples
 
@@ -77,3 +89,7 @@ When populating the content into the top level of the Storybook, select all the 
 <figure>
     {% image "./src/assets/help/import/import-app.png", "Results from the import into the top level", ["215px"], images.sizes.help, "" %}
 </figure>
+
+### Known Issues
+
+- Images from a Mythic export do not re-import.
