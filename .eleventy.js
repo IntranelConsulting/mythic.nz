@@ -5,12 +5,13 @@ const mdIt = require("markdown-it")({
   typographer: true
 });
 const mdAnchors = require("markdown-it-anchor");
+const mdToc = require("markdown-it-toc-done-right");
 const sass = require("sass");
 const imgShortcode = require("./config/images");
 
 const isProd = process.env.NODE_ENV === "production";
 
-const markdown = mdIt.use(mdAnchors);
+const markdown = mdIt.use(mdAnchors).use(mdToc, { level: [3,4]});
 
 const renderCSS = (name) => {
   const result = sass.renderSync({
