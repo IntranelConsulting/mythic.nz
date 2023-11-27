@@ -37,13 +37,14 @@ The exported Markdown files include metadata at the top of the document in [YAML
 title: Sévlade Forest
 mythicId: o810Ude5rEGSGy75PDL57A
 mythicParentId: ZxSyb2cwq0426cO7grZWkw
+mythicOrder: 3/5
 ---
 # Description
 
 The Sévlade Forest lies to the east of Dawn Lake, north of Greycott. It is large and while safe near the road...
 ```
 
-While changing the `Title` is fine, editing `mythicId` and `mythicParentId` can cause issues when re-importing.
+While changing the `Title` is fine, editing metadata prefixed with "mythic" such as `mythicId` can cause issues when re-importing.
 
 ### Known Issues
 
