@@ -62,7 +62,7 @@ To place the imported content under a parent page, place the _folder_ containing
 
 > Note: On MacOS, you may find pages duplicated if you create the ZIP archive with all the subfolders expanded. It seems that the revealed file is added to the archive _and_ the folder which then adds the contained files. You may need to collapse the subfolders.
 
-> Note: If you are importing a Storybook that was exported from Mythic, you may notice a two frontmatter keys called `mythicId` and `mythicParentId`. These are used to match pages with their parents and should not be edited. You should also not *add* these keys to files you are importing that were not exported from Mythic. Instead, create folder structures to inform Mythic about your page hierarchy.
+> Note: If you are importing a Storybook that was exported from Mythic, you may notice frontmatter keys called prefixed with "mythic" such as `mythicId`. These are used to match pages with their parents and should not be edited. You should also not *add* these keys to files you are importing that were not exported from Mythic. Instead, create folder structures to inform Mythic about your page hierarchy.
 
 ### Examples
 
