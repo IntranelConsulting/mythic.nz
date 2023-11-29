@@ -7,15 +7,13 @@ order: 1
 
 [Go back to Help](/help)
 
-[[toc]]
-
 ## Using the Storybook Editor
 
-This page will walk you through writing content and using it while running a game in the Storybook editor.
+This page will walk you through writing content and using the Storybook editor while running a game.
 
 ### Getting Started
 
-1. Create a new Storybook from your [Dashboard](https://app.mythic.nz/) then click its title to load it.
+1. Create a new Storybook from your [Dashboard](https://app.mythic.nz/). Once created, click its title to open it.
 
 <figure>
     {% image "./src/assets/help/storybook-editor/create-dashboard.png", "Screenshot highlighting the create button in the Dashboard", ["599px"], images.sizes.help, "" %}
@@ -33,25 +31,25 @@ This page will walk you through writing content and using it while running a gam
 
 ### General Settings
 
-The Storybook editor has three areas: the title bar, the navigation, and the main content area. From the title bar, you can navigate back to your dashboard of Storybooks, configure settings, or sign out of Mythic.
+The Storybook editor has three areas: the title bar, the navigation, and the main content area. From the title bar, you can navigate back to your dashboard, configure settings, or sign out of Mythic.
 
 <figure>
     {% image "./src/assets/help/storybook-editor/app-header.png", "Screenshot of the Storybook editor showing the title bar", ["919px"], images.sizes.help, "" %}
     <figcaption>The settings button in the title bar.</figcaption>
 </figure>
 
-Clicking the settings button will bring up the settings modal. In addition to the same details you set up on Storybook creation, you can also specify if you'd like your navigation to be custom or alphabetical. If custom is selected, you will be able to drag and drop pages to your desired place in the navigation. This is the default for new Storybooks. If it unselected, then pages will be sorted alphabetically, with pages that have children at the top.
-
-<figure>
-    {% image "./src/assets/help/storybook-editor/storybook-settings-modal.png", "Screenshot of the settings modal", ["517px"], images.sizes.help, "" %}
-    <figcaption>Configuring Storybook and device settings.</figcaption>
-</figure>
-
-Additionally, you can set whether or not you'd like the title bar to always be fixed to the top of the page, or to be hidden until the colour bar is tapped or hovered over. This allows you to minimize rarely used interface to keep your content front and center. Device settings are specific to the computer (or phone, etc) and browser you are using and can therefore be set differently for each one.
+Clicking the settings button will bring up the settings modal. In addition to the same details configured on Storybook creation, you can also specify if you'd like the navigation to be custom (the default) or alphabetical. If custom is selected, you will be able to drag  pages to the desired place in the navigation. If it unselected then pages will be sorted alphabetically with pages that have children grouped first.
 
 <figure>
     <video src="/assets/help/storybook-editor/nav-drag-drop.mp4" width="330" controls loop></video>
     <figcaption>A short video demo of using drag and drop to customise the navigation.</figcaption>
+</figure>
+
+Additionally, you can set whether or not you'd like the title bar to always be fixed to the top of the page, or to be hidden until the colour bar is tapped or hovered over. This allows you to minimize a rarely used interface to keep your content front and center. Device settings are specific to the computer (or phone, etc) and browser you are using and can therefore be set differently for each one.
+
+<figure>
+    {% image "./src/assets/help/storybook-editor/storybook-settings-modal.png", "Screenshot of the settings modal", ["517px"], images.sizes.help, "" %}
+    <figcaption>Configuring Storybook and device settings.</figcaption>
 </figure>
 
 > Note that currently drag and drop only works on devices with a mouse.
