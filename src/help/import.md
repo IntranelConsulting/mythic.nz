@@ -90,6 +90,10 @@ When populating the content into the top level of the Storybook, select all the 
     {% image "./src/assets/help/import/import-app.png", "Results from the import into the top level", ["215px"], images.sizes.help, "" %}
 </figure>
 
+### Errors
+
+In cases where there is an error importing your Markdown files, Mythic will still create a page for it, but with error information instead of the content. After the import is complete, a message will show which pages failed so you can find them in the Storybook and see what went wrong. Feel free to reach out to us for help in these cases. We want to keep improving the import feature.
+
 ### Known Issues
 
 - Images from a Mythic export do not re-import.

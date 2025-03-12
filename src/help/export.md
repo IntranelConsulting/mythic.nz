@@ -46,6 +46,10 @@ The Sévlade Forest lies to the east of Dawn Lake, north of Greycott. It is larg
 
 While changing the `Title` is fine, editing metadata prefixed with "mythic" such as `mythicId` can cause issues when re-importing.
 
+### Errors
+
+In cases where there is an error exporting your Storybook, Mythic will create a file to let you know where it failed. Look for a file called `___MYTHIC-EXPORT-ERRORS___.md` which will contain more information. Feel free to reach out to us for help in these cases. We want to keep improving the export feature.
+
 ### Known Issues
 
 - Links between pages in the exported Markdown may not work and could need to be manually updated.
