@@ -99,9 +99,9 @@ At the top of the content editor is a menu for styling the text and inserting va
 
 #### Images
 
-You can drag & drop or copy & paste images directly in to your content. Alternatively, you can use the image menu button in the editor to upload an image or link to an external one.
+You can drag & drop or copy & paste images directly into your content. Alternatively, you can use the image menu button in the editor to upload an image or link to an external one.
 
-Images must be smaller than 30mb and of one of the following supported file types: `.jpg`, `.png`, `.bmp`, `.gif`, `.webp`, `.avif`.
+Images must be smaller than 30mb and one of the following file types: `.jpg`, `.png`, `.bmp`, `.gif`, `.webp`, `.avif`.
 
 <figure>
     {% image "./src/assets/help/storybook-editor/image.avif", "Screenshot of image modal", ["248px"], images.sizes.help, "" %}
@@ -112,7 +112,7 @@ In this modal, select an image from your device or insert a URL.
 
 > While not required, it is a good idea to provide a description for the image that will be read by a screen reader, or displayed if the image doesn't load.
 >
-> Note: images dropped or pasted in will use their filename for this.
+> *Note: images dropped or pasted in will use their filename for this.*
 
 The image is inserted at the location of the text cursor. Once placed, you can drag it to a new location in your document. Hover over an image to display its placement menu.
 
