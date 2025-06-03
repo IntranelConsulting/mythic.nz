@@ -1,3 +1,4 @@
 node_modules
 dist
 nav-drag-drop.mov
+.DS_Store
