@@ -99,7 +99,7 @@ At the top of the content editor is a menu for styling the text and inserting va
 
 #### Images
 
-Images can be really helpful, whether they are character references, stat blocks, or maps. You can drag & drop or copy & paste images directly in to your content. Alternatively, you can use the image menu button in the editor to upload an image or link to an external one.
+You can drag & drop or copy & paste images directly in to your content. Alternatively, you can use the image menu button in the editor to upload an image or link to an external one.
 
 Images must be smaller than 30mb and of one of the following supported file types: `.jpg`, `.png`, `.bmp`, `.gif`, `.webp`, `.avif`.
 
