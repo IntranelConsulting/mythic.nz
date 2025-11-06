@@ -11,6 +11,15 @@
 @import "navigation";
 @import "help";
 
+.announcement {
+  padding: var(--padding);
+  border: 1px solid var(--purple);
+  background: var(--red-light-55);
+  h1 {
+    font-size: var(--text-xl);
+  }
+}
+
 * {
   box-sizing: border-box;
 }
