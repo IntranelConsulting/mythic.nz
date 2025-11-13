@@ -27,9 +27,9 @@ If you've successfully updated your password, but have no storybooks, it is like
 
 Mythic uses a third-party provider called [Okta](https://www.okta.com) to handle account creation and log in. On the 7th of November (New Zealand time) our account with them was deactivated. The account type we were using was a development tier that we had set up during early access. Those account types were being decommissioned. Unfortunately, Okta decided to announce this change via their dev blog and a banner in the admin portal only, not through email channels. Since the system was working for Mythic, it's rare we need to use the admin portal. This meant we had no idea of this change and only found out when authentication to the Mythic app broke.
 
-After a bit of frantic scrambling, we eventually got in touch with people at Okta who were sympathetic to the situation and were able to re-activate our account temporarily. However, Okta was still progressing with the final company-wide decommissioning scheduled for the 14th of November (unsure of timezone), giving only a few days to migrate to a different system.
+After a bit of frantic scrambling, we eventually got in touch with people at Okta who were sympathetic to the situation and were able to re-activate our account temporarily. However, Okta was still progressing with the final company-wide decommissioning scheduled for the 14th of November (unsure of timezone), which left a few days to migrate to a different system.
 
-Due to the short timeframe, we decided to move to [Auth0](https://auth0.com). Okta is designed for large company workforce identity and access management which meant Mythic didn't quite fit. Auth0 is designed for more standard web app user authentication. Auth0 was acquired by Okta so while we've switched to a more appropriate product, data is still with the same company.
+Due to the short timeframe, we decided to move to [Auth0](https://auth0.com). It is designed for standard web app user authentication more than Okta. Auth0 was acquired by Okta so while we've switched to a more appropriate product, data is still with the same company.
 
 > Side note, Mythic originally used Okta simply due to internal team knowledge and experience. That made it a simpler choice to implement at the time.
 
