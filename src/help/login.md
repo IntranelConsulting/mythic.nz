@@ -17,6 +17,10 @@ Mythic changed authentication providers (how you log into the app) which may hav
 
 If you are getting an incorrect password error message while signing in, you will need to reset your password. When we switched providers, passwords were not migrated. We're sorry for the hassle. 😔
 
+### After Login, I See a Blank Screen or Weird Error Messages
+
+This may be caused by clashes between old login cookies and new, or other stored data in the browser. Clear browser data for mythic.nz (web search for "clear browser data [your browser]" if you don't know how) and then reload https://app.mythic.nz. If you see the Dashboard, log out and log in again, just to be sure it's working smoothly.
+
 ### I Logged In, but Can't See My Storybooks
 
 If you've successfully updated your password, but have no storybooks, it is likely that there was a problem pointing your migrated authentication account to your Mythic storybooks. The content isn't lost. Please [contact us](/contact/) and we can manually connect your account and storybooks. You'll need to include the email address you use to log in, and the name of at least some storybooks and/or page titles so that we can match them up correctly.
