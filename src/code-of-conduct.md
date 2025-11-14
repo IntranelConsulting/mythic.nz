@@ -22,7 +22,7 @@ We do not want to censor or otherwise restrict your content in any way. However,
 Content containing the following will be at risk of deletion and the creator may be banned from using Mythic.
 
 - ### Excessive and/or vulgar use of slurs
-  - Including, but not limited to, offensive comments related to gender, expression, age, sexual orientation, physical appearance, race, disability, ethnicity, and religion.
+  - Including, but not limited to, offensive comments related to gender expression, age, sexual orientation, physical appearance, race, disability, ethnicity, and religion.
 - ### Inappropriate or vulgar photos/images
   - This is at the discretion of the Mythic team. In general we do not wish to restrict your creativity by censoring your images, however using Mythic to share vulgar imagery, including but not limited to depictions of excessive nudity, violence, and drug use, may result in warnings or a ban depending on the context of the images in question.
 - ### Stolen content
