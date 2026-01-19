@@ -7,9 +7,9 @@ description: "Learn about Mythic’s code of conduct and how we contribute to bu
 
 # Code of Conduct
 
-_Updated 1-July-2021 for public beta launch_
+_Updated 19-January-2026 for content sharing_
 
-> > _Building safe communities is important, but can be tough. We're probably going to get it wrong from time to time. While we have and will try to be aware of our biases, we are open to correction and improvement. If you feel this CoC can be made better or enforced better, please don't hesitate to [contact us](mailto:contact@mythic.co.nz)._
+> _Building safe communities is important, but can be tough. We're probably going to get it wrong from time to time. While we have and will try to be aware of our biases, we are open to correction and improvement. If you feel this CoC can be made better or enforced better, please don't hesitate to [contact us](mailto:contact@mythic.co.nz)._
 
 ## Why a Code of Conduct?
 
@@ -17,17 +17,26 @@ Mythic is an ecosystem where people should come to create and enjoy themselves. 
 
 ## Editor Content
 
-We do not want to censor or otherwise restrict your content in any way. However, if you are using the Mythic editor to create and/or share abusive, defamatory, or otherwise offensive content, it is at the discretion of our team to ban the offending user from our platform. This will usually be a last resort action following warnings and attempted communication with the user.
+We do not want to censor or otherwise restrict your content, creativity, and gameplay. TTRPGs sometimes explore difficult and dangerous themes. That's fine. However, if you are using Mythic to create and/or share abusive, harmful, hateful, or otherwise offensive content, it is at the discretion of our team to ban the offending user from our platform. This will usually be a last resort action following warnings and attempted communication with the user.
 
-Content containing the following will be at risk of deletion and the creator may be banned from using Mythic.
+The context of the content and its sharing is key here. If you are writing an adventure that includes players coming across a group of slavers, that's probably acceptable. But if you're writing a manifesto about how a group of real world people should be enslaved, that will not be tolerated.
 
-- ### Excessive and/or vulgar use of slurs
+The following is a _non-exhaustive_ list of content that would be at risk of deletion and the creator being banned from Mythic.
+
+- ### Use of slurs or hate speech to offend or attack people
+
   - Including, but not limited to, offensive comments related to gender expression, age, sexual orientation, physical appearance, race, disability, ethnicity, and religion.
-- ### Inappropriate or vulgar photos/images
-  - This is at the discretion of the Mythic team. In general we do not wish to restrict your creativity by censoring your images, however using Mythic to share vulgar imagery, including but not limited to depictions of excessive nudity, violence, and drug use, may result in warnings or a ban depending on the context of the images in question.
+
+- ### Illegal, offensive, or non-consensual images
+
+  - Non-consensual photos of any kind. This includes obvious categories like CSAM (child sexual abuse material), but also uploading photos of anyone without their consent, regardless of their clothed state.
+  - Vulgar imagery—including excessive nudity, violence (physical, sexual, emotional, etc), and drug use. Vulgar and excessive are used here to acknowledge that in the appropriate context, some images of this sort may be acceptable.
+  - Note that these rules apply to images in private Storybooks, as well as shared or public ones.
+
 - ### Stolen content
-  - Using Mythic to organize reference images and/or background research written by someone else is totally fine.
-  - We do not tolerate plagiarism. Using Mythic to publish or otherwise share content that isn’t yours without permission from the original author/artist will result in a warning. Your account will be banned if the offending content is not removed.
+
+  - Using Mythic to organize reference images and/or background research written by someone else for **private use** is generally fine.
+  - Using Mythic to publish or otherwise share content that isn’t yours without permission from the original author/artist will result in a warning. Your account will be banned if the offending content is not removed.
 
 ## Harassment
 
