@@ -17,9 +17,9 @@ Mythic is an ecosystem where people should come to create and enjoy themselves. 
 
 ## Editor Content
 
-We do not want to censor or otherwise restrict your content, creativity, and gameplay. TTRPGs sometimes explore difficult and dangerous themes. That's fine. However, if you are using Mythic to create and/or share abusive, harmful, hateful, or otherwise offensive content, it is at the discretion of our team to ban the offending user from our platform. This will usually be a last resort action following warnings and attempted communication with the user.
+We do not want to censor or otherwise restrict your content, creativity, or gameplay. TTRPGs sometimes explore difficult and dangerous themes. That's fine. However, if you are using Mythic to create and/or share abusive, harmful, hateful, or otherwise offensive content, it is at the discretion of our team to ban the offending user from our platform. This will usually be a last resort action following warnings and attempted communication with the user.
 
-The context of the content and its sharing is key here. If you are writing an adventure that includes players coming across a group of slavers, that's probably acceptable. But if you're writing a manifesto about how a group of real world people should be enslaved, that will not be tolerated.
+The context of the content and its sharing is key here. If you are writing an adventure that includes characters coming across a group of slavers, that's probably acceptable. But if you're writing a manifesto about how a group of real world people should be enslaved, that will not be tolerated.
 
 The following is a _non-exhaustive_ list of content that would be at risk of deletion and the creator being banned from Mythic.
 
