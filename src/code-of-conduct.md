@@ -7,7 +7,7 @@ description: "Learn about Mythic’s code of conduct and how we contribute to bu
 
 # Code of Conduct
 
-_Updated 19-January-2026 for content sharing_
+_Updated 03-February-2026 for content sharing_
 
 > _Building safe communities is important, but can be tough. We're probably going to get it wrong from time to time. While we have and will try to be aware of our biases, we are open to correction and improvement. If you feel this CoC can be made better or enforced better, please don't hesitate to [contact us](mailto:contact@mythic.co.nz)._
 
