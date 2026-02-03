@@ -2,7 +2,7 @@
 title: Log In and Account Issues
 description: Get help with log in and account issues on Mythic
 tags: help
-order: 5
+order: 6
 ---
 
 [Go back to Help](/help)
